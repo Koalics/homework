@@ -1,0 +1,27 @@
+body {
+    font-size: 40px;
+}
+
+/* =============================================== */
+
+.block {
+    /* width: 1000px;
+    height: 100px; */
+    background: cadetblue;
+
+    max-width: 1000px;
+    min-width: 800px;
+
+    max-height: 1000px;
+    min-height: 100px;
+}
+
+.inline {
+    width: 1000px;
+    height: 100px;
+}
+
+.img {
+    width: 1000px;
+    height: 200px;
+}

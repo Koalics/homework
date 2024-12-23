@@ -1,29 +1,33 @@
 body {
-  
+  font-style: 40px;
 }
 
 * {
-  
+  box-sizing: border-box;
 }
 
 .block, .inline {
-  
+  background: #e0d5c5;
 }
 
 .block {
-  
+  padding: 30px;
+  margin: 50px;
 }
 
 /* =============================================== */
 
 .block {
-  
+  /* inset - внутр тень указать в bsh, 4 значение опцианально - размер тени */
+  /* box-shadow: -10px 15px 20px 10px #000; */
+  box-shadow: -10px 15px 20px 10px #000, 10px -30px 20px 10px #5e0d0d;
+  border-radius: 30px;
 }
 
 .inline {
-  
+  /* не применимо */
 }
 
 .img {
-  
+  box-shadow: -10px 15px 20px 10px #000;
 }

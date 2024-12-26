@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  font-family: Comic Sans MS, Arial, sans-serif;
+}
+
+.elements {
+  border: 1px solid #000;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background: #d6d1d1;
+  overflow: auto;
+  height: 75vh;
+
+}
+
+.element {
+  display: inline-block;
+  border-radius: 30px;
+  box-shadow: inset 1px 1px 10px #201f20;
+  background: #bea888;
+  width: 375px;
+  min-height: 292px;
+  margin: 10px 5px;
+  padding: 10px 40px 0px;
+  font-size: 26px;
+}

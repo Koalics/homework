@@ -1,0 +1,27 @@
+body {
+  background: #262628;
+  font-size: 40px;
+  color: #fff;
+}
+
+.bar {
+  background: linear-gradient(120deg, rgb(197, 191, 191), rgb(221, 214, 214));
+  border-radius: 10px;
+  position: fixed;
+  height: 100px;
+  left: 50vw;
+  right: 50px;
+  bottom: 100px;
+}
+
+.circle {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(120deg, rgb(224, 50, 61), rgb(238, 59, 63));
+  border-radius: 1000px;
+  left: 90px;
+  bottom: 50px;
+}
+
+/* половина слева, справа 50px, снизу 100px */
